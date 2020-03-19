@@ -12,11 +12,3 @@ html {
     font-size: 50px;
 }
 
-/* portrait */
-@media screen and (orientation:portrait) {
-    /* some code */
-}
-/* landscape */
-@media screen and (orientation:landscape) {
-    /*  some code */
-}

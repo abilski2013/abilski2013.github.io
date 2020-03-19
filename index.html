@@ -6,6 +6,9 @@
   <title>Adam Bilski</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="static/css/style.css">
+  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+  <script src="https://d3js.org/d3.v5.min.js"></script>
+
 </head>
 
 <body>
@@ -14,13 +17,24 @@
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="greeter">Hello World</h1>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
                 </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12" id="plot"></div>
+                <select id="selDataset">
+                  <option value="dataset1">DataSet1</option>
+                  <option value="dataset2">DataSet2</option>
+                </select>
+            <br><br><br><br><br>
             </div>
         </div>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
     <script src="static/js/data.js"></script>
     <script src="static/js/app.js"></script>
+    <script src="static/js/plots.js"></script>
+
 </body>
 
 </html>
